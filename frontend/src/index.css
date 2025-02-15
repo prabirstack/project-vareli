@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Open Sans", "sans-serif";
+  --color-brand: hsl(271, 69.8%, 59.8%);
+  --color-bradRadial: bg-[radial-gradient(
+      50%_50%_at_50%_50%,
+      _#CCFFFF_0%,
+      _#9BBEE1_100%
+    )];
+  --breakpoint-tablet: 80rem;
+}
+body {
+  @apply bg-[radial-gradient(50%_50%_at_50%_50%,_#CCFFFF_0%,_#9BBEE1_100%)];
+}
